@@ -1,0 +1,109 @@
+/* Text colors */
+.text-primary {
+    color: #384c63;
+}
+
+.text-secondary {
+    color: #fff;
+}
+
+
+/* Buttons and backgrounds */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #384c63;
+    border: none;
+    border-radius: 5px;
+    /* width: 150px; */
+}
+.btn-light, .bg-light {
+    background: #c7b8ab;
+    color: #384c63;
+}
+
+.btn-dark, .bg-dark {
+    background: #384c63;
+    color: #fff;
+}
+
+.bg-white {
+    background: #fff;
+    color: #384c63;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Flex items */
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
+/* Flex columns */
+
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-columns h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.flex-columns p {
+    margin: 20px 0;
+}
+
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
+.flex-columns.flex-reverse .row .column-2 {
+align-items: flex-end;
+text-align: right;
+}
