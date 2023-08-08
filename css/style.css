@@ -8,12 +8,14 @@
 }
 
 /* Main Styling */
-html,body {
-    font-family: 'Poppins', sans-serif;    
-    line-height: 1.6em;    
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
     background-color: #fff;
     color: #444852;
     /* scroll-behavior: smooth; */
+    font-size: 16px;
 }
 
 ul {
@@ -25,12 +27,29 @@ a {
     text-decoration: none;
 }
 
-h1, h2 {
+h1 {
+    font-size: 35px;
     padding-bottom: 20px;
     line-height: 1.2;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 15px;
 }
 
 p {
+    font-size: 18px;
     margin: 10px 0;
 }
 
@@ -74,7 +93,7 @@ img {
 /* Header */
 .hero {
     background: url('../img/hero2.jpg') no-repeat center center/cover;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     color: #fff;
 }
@@ -96,9 +115,7 @@ img {
 }
 
 .hero .about p {
-    font-size: 23px;
     margin: 0 20px 30px;
-    font-weight: 200;
 }
 
 .hero .about a {
@@ -124,17 +141,14 @@ img {
     z-index: 10;
 }
 
+.navbar,
+.icons,
+.experience,
+.contact {
+    padding: 60px 20px;
+}
 
 /* Icons */
-.icons {
-    padding: 30px;
-    height: 70vh;
-}
-
-.icons h3 {
-    margin-bottom: 15px;
-}
-
 .icon {
     padding: 15px;
 }
@@ -147,11 +161,58 @@ img {
     color: #fff;
 }
 
-/* .experience h2 {
-    text-align: center;
-} */
 
+/* Contact form */
 
+.flex-columns .column-info,
+.flex-columns .column-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.contact-info a {
+    padding: 15px;
+}
+
+.contact-form {
+    width: 80%;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form textarea {
+    height: 170px;
+}
 
 
 
@@ -159,12 +220,15 @@ img {
 .color1 {
     color: #fff;
 }
+
 .color2 {
-    color:#444852;
+    color: #444852;
 }
+
 .color3 {
-    color:#384c63;
+    color: #384c63;
 }
+
 .color4 {
-    color:#9ebef5;
+    color: #9ebef5;
 }
