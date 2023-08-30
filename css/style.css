@@ -102,8 +102,6 @@ img {
     height: 90vh;
     position: relative;
     color: #fff;
-    background-size: cover;
-    background-position: center;
 }
 
 .hero .about {
@@ -247,6 +245,25 @@ img {
 
 .flex-columns .company {
     min-width: 150px;
+}
+
+/* Thank you page */
+
+.thankyou {
+    background: url('../img/thankyou.jpg') no-repeat center center/cover;
+    height: 100vh;
+    padding: 60px;
+}
+
+.thankyou h1 {
+    font-size: 46px;
+    text-align: left;
+}
+
+.thankyou h2 {
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
 }
 
 /* Responsive */

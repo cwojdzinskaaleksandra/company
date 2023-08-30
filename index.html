@@ -9,7 +9,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="description"
         content="Jesteśmy firmą specjalizującą się w renowacji pokryć dachowych. Sprzedajemy farby specjalistyczne i podadzki">
-    <meta name="keywords" content="pokrycia dachowe, renowacja dachów, prace na wysokości, czyszczenie dachów, malowanie dachów">
+    <meta name="keywords"
+        content="pokrycia dachowe, renowacja dachów, prace na wysokości, czyszczenie dachów, malowanie dachów">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/style.css">
     <title>POWŁOKI | Renowacje pokryć dachowych</title>
@@ -31,9 +32,10 @@
         </nav>
         <section id="about" class="about text-secondary">
             <h1>Renowacje pokryć dachowych</h1>
-            <p>Twój dach stracił swój pierwotny kolor albo chcesz go zabezpieczyć przed nagrzewaniem się? A moze dach z
-                papy przecieka lub potrzebujesz jego renowacji bez kosztów utylizacji papy? Te i inne usługi znajdziesz
-                u nas. Firma POWŁOKI to połączenie doświadczenia, fachowej wiedzy oraz zobowiązania do dostarczenia
+            <p>Twój dach stracił swój pierwotny kolor albo chcesz go zabezpieczyć przed nagrzewaniem się? <br><br>
+                A moze dach z papy przecieka lub potrzebujesz jego renowacji bez kosztów utylizacji papy? <br><br>
+                Te i inne usługi znajdziesz u nas. Firma POWŁOKI to połączenie doświadczenia, fachowej wiedzy oraz
+                zobowiązania do dostarczenia
                 klientom usług najwyższej jakości. </p>
             <a href="#contact" class="btn btn-light"><i class="fa-solid fa-phone"></i>
                 Skontaktuj się z nami</a>
@@ -152,28 +154,32 @@
                 <div class="row">
 
                     <div class="column column-form">
-                        <form action="" class="contact-form">
+                        <form action="https://formsubmit.co/powloki.net@gmail.com" method="POST" class="contact-form">
                             <div class="form-control">
                                 <label for="name">Imię i nazwisko</label>
-                                <input type="text" name="name" id="name" placeholder="Wpisz imię i nazwisko" required minlength="3">
+                                <input type="text" name="name" id="name" placeholder="Wpisz imię i nazwisko" required
+                                    minlength="3">
                             </div>
 
                             <div class="form-control">
                                 <label for="email">E-mail</label>
-                                <input type="email" name="email" id="email" placeholder="Wpisz e-maila">
+                                <input type="email" name="email" id="email" placeholder="Wpisz e-maila" required>
                             </div>
 
                             <div class="form-control">
                                 <label for="phone">Telefon</label>
-                                <input type="tel" name="phone" id="phone" placeholder="Wpisz numer telefonu">
+                                <input type="tel" name="phone" id="phone"
+                                    placeholder="Wpisz numer telefonu (opcjonalnie)">
                             </div>
 
                             <div class="form-control">
                                 <label for="message">Twoja wiadomość</label>
                                 <textarea name="message" id="message" cols="100" rows="10"
-                                    placeholder="Napisz do nas wiadomość" required></textarea>
+                                    placeholder="Napisz do nas wiadomość" required minlength="10"></textarea>
                             </div>
                             <input type="submit" value="Wyślij" id="submit" class="btn btn-light">
+                            <input type="hidden" name="_subject" value="Wiadomość z formularza kontaktowego">
+                            <input type="hidden" name="_next" value="https://127.0.0.1:5500/thankyou.html">
                         </form>
                     </div>
 
@@ -233,8 +239,8 @@
                     </div>
                 </div>
 
-                <div class="column">
-                    <div class="social column-info">
+                <!-- <div class="column">
+                    <div class="social column-info tooltip">
                         <a href="https://pl.linkedin.com/" target="_blank"><i
                                 class="fa-brands fa-linkedin fa-3x"></i></a>
                         <a href="https://www.facebook.com/" target="_blank"><i
@@ -242,7 +248,7 @@
                         <a href="https://www.instagram.com/" target="_blank"><i
                                 class="fa-brands fa-instagram fa-3x"></i></a>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>
