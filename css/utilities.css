@@ -52,6 +52,8 @@
 
 .flex-items>div {
     padding: 20px;
+    width: 33%;
+    min-width: 300px
 }
 
 /* Flex columns */
